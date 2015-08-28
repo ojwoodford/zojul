@@ -63,3 +63,20 @@ vertical-align: middle;
     padding: 0px;
     margin: 0px;
 }
+button {
+	border-color:#378de5;
+    border-style: solid;
+	color:#378de5;
+	background-color:#ffffff;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border-width:3px;
+	display:inline-block;
+	cursor:pointer;
+	padding:16px 24px;
+}
+button:hover {
+	background-color:#378de5;
+	color:#ffffff;
+}
