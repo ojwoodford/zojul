@@ -35,10 +35,6 @@ filter: brightness(65%);
 .caoursel-caption {
 text-align: center;
 }
-button {
-font-family:    Sans;
-font-size: 1.6em;
-}
 ul.spread {
     list-style-type: none;
     display: table;
@@ -63,7 +59,9 @@ vertical-align: middle;
     padding: 0px;
     margin: 0px;
 }
-button {
+button, .button {
+font-family:    Sans;
+font-size: 1.6em;
 	border-color:#378de5;
     border-style: solid;
 	color:#378de5;
@@ -76,7 +74,12 @@ button {
 	cursor:pointer;
 	padding:16px 24px;
 }
-button:hover {
+button:hover, .button:hover {
 	background-color:#378de5;
 	color:#ffffff;
 }
+span {
+font-family:    Sans;
+font-size:      1.5em;
+}
+	
